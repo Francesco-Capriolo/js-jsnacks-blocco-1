@@ -9,8 +9,9 @@ const numbers = [];
 let sum = 0;
 
 for (let i = 0; i < 10; i++) {
-    numbers.push(Math.floor(math.random() * 1000));
-    sum += numbers;
+    const randomNumbers = (Math.floor(Math.random() * 1000));
+    numbers.push(randomNumbers);
+    sum += numbers[i];
 }
 
 console.log(numbers);
